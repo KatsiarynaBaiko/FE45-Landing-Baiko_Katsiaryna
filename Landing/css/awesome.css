@@ -1,7 +1,7 @@
 /* .awesome {
 } */
 
-.line {
+.line_awesome {
     width: 64px;
     height: 2px;
     border: 1px solid #E72424;
@@ -18,12 +18,15 @@
 }
 .awesome-wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 -15px;
     /* margin-bottom: 50px; */
 }
 .awesome-card {
     width: 350px;
     /* border: 1px solid coral; */
+    margin: 0 15px;
     /* padding: 20px; */
 }
 
@@ -49,10 +52,12 @@
     font-size: 20px;
     font-family: 'Open Sans';
     font-weight: 700;
+    color: #333333;
 }
 .awesome-card--description {
     text-align: center;
     font-size: 14px;
     font-family: 'Open Sans';
     font-weight: 400;
+    color: #000000;
 }

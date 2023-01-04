@@ -1,0 +1,77 @@
+.pricing {
+    background-color: #F5F5F5;
+}
+
+.line_pricing {
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 0 auto 34px;
+}
+
+.pricing_text {
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 68px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricing-wrap { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.pricing-card {
+    width: 340px;
+    /* border: 1px solid aquamarine; */
+    margin: 0 15px;
+    /* padding: 20px; */
+}
+
+.pricing-card--tarif {
+    line-height: 50px;
+    text-align: center;
+    background-color: #333333;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+.pricing-card--cost {
+    line-height: 100px;
+    text-align: center;
+    background-color: #333333;
+    margin-bottom: 2px;
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+.pricing-card--info {
+    line-height: 50px;
+    text-align: center;
+    background-color: #333333;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.pricing-card--space {
+    line-height: 40px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #86878B;
+}
