@@ -2,12 +2,12 @@
     background-color: #F5F5F5;
 }
 
-.line_pricing {
+/* .line_pricing {
     width: 64px;
     height: 2px;
     border: 1px solid #E72424;
     margin: 0 auto 34px;
-}
+} */
 
 .pricing_text {
     color: #86878B;
@@ -74,4 +74,8 @@
     font-family: 'Open Sans';
     font-weight: 400;
     color: #86878B;
+}
+
+.pricing-card--space:last-child {
+margin-bottom: 0;
 }

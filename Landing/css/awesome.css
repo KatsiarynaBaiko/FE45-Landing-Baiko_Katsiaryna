@@ -1,12 +1,12 @@
 /* .awesome {
 } */
 
-.line_awesome {
+/* .line_awesome {
     width: 64px;
     height: 2px;
     border: 1px solid #E72424;
     margin: 0 auto 34px;
-}
+} */
 
 .awesome-text {
     color: #86878B;
@@ -39,12 +39,15 @@
     border: 1px solid #E72424;
     margin: 0 auto 30px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.awesome-card--img img {
+/* .awesome-card--img img {
    display: block;
    margin: 18px auto;
-}
+} */
 
 .awesome-card--title {
     text-align: center;
