@@ -57,6 +57,7 @@
 .socialmedia-links--item a {
     font-size: 42px;
     color: #86878B;
+    margin: 0 10px;
 }
 
 /* .fa-brands {
