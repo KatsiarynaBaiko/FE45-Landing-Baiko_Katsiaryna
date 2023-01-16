@@ -2,12 +2,15 @@
 } */
 
 .customer-text {
-    color: #86878B;
-    text-align: center;
     margin-bottom: 68px;
+}
+
+.customer-text p {
     font-family: 'Open Sans';
     font-size: 14px;
-    font-weight: 400;   
+    font-weight: 400;
+    color: #86878B;
+    text-align: center; 
 }
 
 .customers-wrap {
@@ -25,11 +28,6 @@
 }
 
 .customer-review--text {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 14px;
-    color: #86878B;
-    text-align: center;
     background-color: #E2E2E2;
     border-radius: 7px;
     margin-bottom: 22px;
@@ -38,10 +36,16 @@
     flex: 1 1 auto;
 }
 
+.customer-review--text p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+}
+
 .customer-review--text::after {
     content: "";
-    width:0;
-    height: 0;
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
     border-top: 14px solid #E2E2E2;
@@ -54,6 +58,7 @@
 .customer-review--profil {
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
 }
 
 .customer-review--profil_img {
@@ -61,9 +66,6 @@
     height: 70px;
     border-radius: 50%;
     /* border: 1px solid mediumaquamarine; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
 }
 
@@ -78,21 +80,20 @@ object-position: center;
 .customer-review--profil_info {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
-.customer-review--profil_name {
+.customer-review--profil__name {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 20px;
     color: #333333;
-    /* text-align: center; */
-    margin-bottom: 12px;
 }
 
-.customer-review--profil_position {
+.customer-review--profil__position {  
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     color: #86878B;
-    /* text-align: center; */
 }

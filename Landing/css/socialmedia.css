@@ -1,7 +1,7 @@
 
 .socialmedia {
     background-color: #F8EFEF;
-    padding: 17px 0
+    padding: 17px 0;
 }
 
 .socialmedia-wrap {
@@ -36,7 +36,7 @@
     font-weight: 400;
     font-size: 14px;
     text-align: left;
-    color: #86878B
+    color: #86878B;
 }
 
 .socialmedia-links {
@@ -50,9 +50,9 @@
     flex-basis: 684px;
 }
 
-.socialmedia-links--item {
+/* .socialmedia-links--item {
     cursor: pointer;
-}
+} */
 
 .socialmedia-links--item a {
     font-size: 42px;
@@ -128,3 +128,4 @@
     transform: scale(1.3) rotate(360deg);
     color: #f26522;
 }
+ 

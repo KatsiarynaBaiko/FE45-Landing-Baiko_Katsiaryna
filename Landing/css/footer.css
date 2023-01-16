@@ -8,20 +8,19 @@
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-    /* flex-basis: 317px; */
     max-width: 317px;
     margin: 0 auto 18px;
     /* column-gap:30px; */
 }
 
-.fotter-socialmedia-item {
+/* .fotter-socialmedia-item {
     cursor: pointer;
-}
+} */
 
 .fotter-socialmedia-item a{
     font-size: 23px;
     color: #c4c5c9;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 
 /* .footer-text {
