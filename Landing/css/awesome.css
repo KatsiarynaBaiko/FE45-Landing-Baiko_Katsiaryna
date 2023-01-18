@@ -14,7 +14,8 @@
 
 .awesome-text p {
     font-family: 'Open Sans';
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-weight: 400;
     color: #86878B;
     text-align: center;
@@ -57,7 +58,8 @@
 .awesome-card--title {
     text-align: center;
     margin-bottom: 16px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     font-family: 'Open Sans';
     font-weight: 700;
     color: #333333;
@@ -68,7 +70,8 @@
 
 .awesome-card--description p {
     text-align: center;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-family: 'Open Sans';
     font-weight: 400;
     color: #000000;

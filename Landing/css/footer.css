@@ -18,7 +18,8 @@
 } */
 
 .fotter-socialmedia-item a{
-    font-size: 23px;
+    /* font-size: 23px; */
+    font-size: 1.4375rem;
     color: #c4c5c9;
     /* margin: 0 10px; */
 }
@@ -29,7 +30,8 @@
 .footer-text p {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 0.75rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }

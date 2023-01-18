@@ -15,7 +15,8 @@
 
 .pricing_text p {
     font-family: 'Open Sans';
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-weight: 400;
     color: #86878B;
     text-align: center;
@@ -40,7 +41,8 @@
     text-align: center;
     background-color: #333333;
     margin-bottom: 2px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     font-family: 'Open Sans';
     font-weight: 700;
     color: #F5F5F5;
@@ -51,7 +53,8 @@
     text-align: center;
     background-color: #333333;
     margin-bottom: 2px;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 2.1875rem;
     font-family: 'Raleway';
     font-weight: 700;
     color: #F5F5F5;
@@ -62,7 +65,8 @@
     text-align: center;
     background-color: #333333;
     margin-bottom: 4px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-family: 'Open Sans';
     font-weight: 600;
     color: #FFFFFF;
@@ -73,7 +77,8 @@
     text-align: center;
     background-color: #FFFFFF;
     margin-bottom: 4px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-family: 'Open Sans';
     font-weight: 400;
     color: #86878B;

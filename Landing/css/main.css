@@ -5,6 +5,7 @@
     background-size: cover;
     position: relative;
     padding: 100px 0;
+    min-height: calc(100vh - 75px);
 }
 
 .axitmain::before{
@@ -24,6 +25,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 -15px;
+    
 }
 
 .axit-info {
@@ -41,7 +43,8 @@
 .axit-logo1 {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 3.75rem;
     text-align: center;
     color: #FFFFFF; 
 }
@@ -49,7 +52,8 @@
 .axit-logo2 {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 3.75rem;
     text-align: center;
     color: #EC7979; 
 }
@@ -57,7 +61,8 @@
 .axit-title {
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 2.25rem;
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: left;
@@ -82,18 +87,21 @@
 .axit-text p {
     font-family: 'Raleway';
     font-weight: 300;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1rem;
     color:rgba(255, 255, 255, 0.8);
 }
 
 .axit-button {
     text-align: left;
+
 }
 
 .axit-button a {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     color: #FFFFFF;
     background-color: transparent;
     border: 1px solid #FFFFFF;
@@ -102,6 +110,7 @@
     text-align: center;
     transition: 0.5s;
     display: block;
+    /* line-height: !!!; */
 }
 
 .axit-button a:hover {
@@ -123,26 +132,28 @@
 }
 
 .form-content {
-    padding: 0px 59px 61px;
-    /* padding: 18px 59px 61px; */
+    /* padding: 0px 59px 61px; */
+    padding: 18px 59px 61px;
 }
 
 .form-title {
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     text-transform: capitalize;
     color: #333333;
     text-align: center;
-    /* margin-bottom: 62px; */
-    margin-bottom: 44px;
-    line-height: 56px;
+    margin-bottom: 62px;
+    /* margin-bottom: 44px; */
+    /* line-height: 56px; */
 }
 
 .free {
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     text-transform: uppercase;
     color: #EC7979;
 }
@@ -157,7 +168,8 @@
 .axit-btn {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     text-transform: capitalize;
     color: #FFFFFF;
     text-align: center;
@@ -187,6 +199,7 @@ label, input {
     display: block;
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: #BDBDBD;
 }

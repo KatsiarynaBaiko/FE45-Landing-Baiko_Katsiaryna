@@ -7,7 +7,8 @@
 
 .contact-text p {
     font-family: 'Open Sans';
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     font-weight: 400;
     color: #86878B;
     text-align: center;  
@@ -51,14 +52,16 @@
     border-bottom: 1px solid #BDBDBD;
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: #BDBDBD;
 }
 
 .customer-button {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     text-transform: capitalize;
     color: #FFFFFF;
     text-align: center;
@@ -93,6 +96,7 @@ label, input {
     display: block;
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: #BDBDBD;
 }
